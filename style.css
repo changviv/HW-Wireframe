@@ -20,7 +20,7 @@ header, nav, section, aside, footer {
 header, nav, footer {
     padding: 20px 60px 20px 60px;
     margin: 10px auto;
-    width: 495px;
+    width: 879px;
 }
 
 article {
@@ -35,23 +35,25 @@ h1, p {
     background: #ebebeb;
 }
 
-div {
-    width:500px;
-    margin: 0px auto;
+.box-set {
+    position: relative;
 }
+
 section {
-    width: 55%;
+    /* position: absolute; */
+    width: 495px;
     padding: 10px;
     float: left;
     margin: 10px auto;
+    margin-left: 37.5px;
     box-sizing: border-box;
 }
 
 aside {
     float: left;
-    width: 42%;
+    width: 39%;
     height: 216px;
-    padding:20px 20px 50px 20px;
+    padding:20px 0px 50px 10px;
     margin-top: 10px;
     margin-left: 15px;
     overflow:auto;
